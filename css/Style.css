@@ -1,0 +1,67 @@
+/* Text Formatting */
+Body{
+    background-color: bisque;
+    background-image: linear-gradient(to bottom right, Cyan, blueviolet);
+}
+
+.Text{
+    font-family:monospace;
+    font-size: 1.5em;
+    
+}
+
+.Title{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size : 4em;
+}
+
+.Nav{
+    margin:auto;
+    border: 10px solid #2d0088;
+    padding: 10px 300px;
+}
+
+.NavCon{
+    text-align:center;
+    display: inline-block;
+    color:blueviolet;
+    font-family:monospace;
+    font-size: 2em;
+
+}
+
+.NavCon:hover{
+    padding: 14px 16px;
+    background-color:azure;
+}
+
+.List{
+    color:#5effef;
+    font-weight: lighter;
+    background-image: linear-gradient(to bottom right, rgb(200, 0, 255), rgb(226, 43, 141));
+}
+
+.ListTitle{
+    color:#0000FF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+table, th, td{
+    background-color: rgb(137, 196, 248);
+    text-align: center;
+    border: 1px solid;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+}
+
+#Personal{
+    float: left;
+    width: 350px;
+    height: 500px;
+}
